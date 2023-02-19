@@ -1,6 +1,7 @@
-var drawCats = function (howManyTimes) {
-    for (let i = 0; i < howManyTimes; i++) {
-        console.log(i + " =^.^=");
-    }
+var cubeChecker = function(volume, side){
+    if (volume % side !== 0 || volume <= 0 || side <= 0) {
+        return false;
+    } else return true;
 };
-drawCats(10);
+
+console.log(cubeChecker(604513 ,91));
