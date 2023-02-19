@@ -60,3 +60,8 @@ export { uppercaseString, lowercaseString }; - экспортирует функ
 import { uppercaseString, lowercaseString } from "./math_functions.js"; - импортирует функции
 import * as myMathModule from "./math_functions.js"; - импортирует весь файл
 
+========================================================================================================================
+
+.slice() - срез строки;
+.toUpperCase() - перевод строки в верхний регистр;
+.toLowerCase() - перевод строки в нижний регистр;
