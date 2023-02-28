@@ -14,3 +14,5 @@ function high(x){
     });
     return wordList[highestIndex];
 }
+
+console.log(high('hello'))
